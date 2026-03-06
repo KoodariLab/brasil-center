@@ -44,6 +44,6 @@ export default defineEventHandler(async (event) => {
   const cleanHeaders = {}
   if (headers['content-type']) cleanHeaders['Content-Type'] = headers['content-type']
   if (headers['authorization']) cleanHeaders['Authorization'] = headers['authorization']
-  const response = await fetchGraphQL(apiUrl, body, cleanHeaders, !isDev)
+  const response = await fetchGraphQL(apiUrl, body, cleanHeaders, false)
   return response
 })
