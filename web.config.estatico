@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Web.config para deploy ESTÁTICO do Nuxt no IIS.
+  Use este arquivo quando publicar o conteúdo de .output/public (após nuxt generate).
+
+  Como usar:
+  1. Rode: npm run generate
+  2. Copie todo o conteúdo de .output/public para a raiz do site no IIS
+  3. Copie este arquivo para a mesma pasta e renomeie para web.config
+-->
+<configuration>
+  <system.webServer>
+    <rewrite>
+      <rules>
+        <!-- Servir arquivos que existem -->
+        <rule name="Existing files" stopProcessing="true">
+          <match url=".*" />
+          <conditions>
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" />
+          </conditions>
+          <action type="None" />
+        </rule>
+        <!-- Servir diretórios (ex.: /sobre/ com index.html) -->
+        <rule name="Existing directories" stopProcessing="true">
+          <match url=".*" />
+          <conditions>
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" />
+          </conditions>
+          <action type="None" />
+        </rule>
+        <!-- Fallback para o app (rotas do Nuxt): servir 200.html -->
+        <rule name="Nuxt static fallback" stopProcessing="true">
+          <match url=".*" />
+          <conditions logicalGrouping="MatchAll">
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="/200.html" />
+        </rule>
+      </rules>
+    </rewrite>
+    <staticContent>
+      <mimeMap fileExtension=".json" mimeType="application/json" />
+      <mimeMap fileExtension=".webmanifest" mimeType="application/manifest+json" />
+    </staticContent>
+  </system.webServer>
+</configuration>

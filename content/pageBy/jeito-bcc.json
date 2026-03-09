@@ -1,0 +1,151 @@
+{
+  "title": "Jeito BCC",
+  "uri": "jeito-bcc",
+  "jeitoBcc": {
+    "fundoEmSvg": {
+      "node": {
+        "mediaItemUrl": "/uploads/2025/08/jeito-bcc-novo.svg"
+      }
+    },
+    "fundoEmSvgMobile": {
+      "node": {
+        "mediaItemUrl": "/uploads/2025/08/graficos-fundo-mobile-jeito-bcc.svg"
+      }
+    },
+    "banner": [
+      {
+        "bannerDesktop": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-mulher.png"
+          }
+        },
+        "bannerMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-destaque-1.png"
+          }
+        },
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/emoji.png"
+          }
+        },
+        "titulo": "Onde os talentos encontram a oportunidade",
+        "descricao": "",
+        "botao": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/"
+      }
+    ],
+    "prioridades": [
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Group-177497.png"
+          }
+        },
+        "titulo": "Diversidade",
+        "descricao": "A gente cresce de verdade quando valoriza as diferenças e supera os desafios juntos."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Group-177506.png"
+          }
+        },
+        "titulo": "Aprendizado ",
+        "descricao": "É das experiências e vivências que vem a força pra turbinar cada vez mais as soluções."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/seta.png"
+          }
+        },
+        "titulo": "Resultados",
+        "descricao": "Gente engajada + estratégias inteligentes que funcionam e vão além das metas."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Vector.png"
+          }
+        },
+        "titulo": "Soluções ",
+        "descricao": "Aqui, cabeças e saberes diferentes trabalham juntos para resolver problemas e conquistar o público."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Vector-1.png"
+          }
+        },
+        "titulo": "Paixão",
+        "descricao": "Nosso time atua diariamente movido por garra, dedicação e paixão pelo que faz."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Vector-2.png"
+          }
+        },
+        "titulo": "Atitude",
+        "descricao": "Protagonistas inquietos, inovadores e comprometidos com o trabalho."
+      }
+    ],
+    "projetos": [
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icon-1.png"
+          }
+        },
+        "titulo": "Conexão Aprendiz",
+        "descricao": "Uma oportunidade para aprender, crescer e construir um caminho de sucesso como talento da BCC!"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-desenvolver.png"
+          }
+        },
+        "titulo": "Desenvolver",
+        "descricao": "Diversos programas pensados para você ir mais longe e desenvolver seus potenciais e sua carreira."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-sou-qualidade.png"
+          }
+        },
+        "titulo": "#SouQualidade",
+        "descricao": "Acompanha de perto a satisfação dos nossos clientes para oferecer o melhor atendimento."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-reconhecimento.png"
+          }
+        },
+        "titulo": "Reconhecimento",
+        "descricao": "Aqui, reconhecemos e valorizamos os seus resultados com programas de incentivo."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-programas-2.png"
+          }
+        },
+        "titulo": "Indique um Amigo",
+        "descricao": "O programa que incentiva a nossa gente a indicar quem também é a cara da BCC para trabalhar aqui."
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-programas-1.png"
+          }
+        },
+        "titulo": "Sucessores",
+        "descricao": "Quer ser líder? A gente te prepara! Um programa para afiar suas habilidades, ganhar confiança e subir degraus."
+      }
+    ]
+  }
+}

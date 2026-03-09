@@ -1,0 +1,329 @@
+{
+  "title": "Home",
+  "uri": "home",
+  "home": {
+    "fundoEmSvg": {
+      "node": {
+        "mediaItemUrl": "/uploads/2025/08/Home-v2-2.svg"
+      }
+    },
+    "fundoEmSvgMobile": {
+      "node": {
+        "mediaItemUrl": "/uploads/2025/08/banner-svg-home-v3.svg"
+      }
+    },
+    "banner": [
+      {
+        "image": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/Imagem-rapaz-1.png"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-home-banner-1-mobile.png"
+          }
+        },
+        "icones": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/joia.png"
+          }
+        },
+        "title": "Quando a gente cuida de quem cuida, o atendimento se transforma",
+        "text": "Vem fazer parte de um ambiente de trabalho acolhedor e inclusivo, onde a excelência é só consequência da valorização e do bem-estar.",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false
+      },
+      {
+        "image": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/Imagem-menina.png"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-home-banner-2.png"
+          }
+        },
+        "icones": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/joia.png"
+          }
+        },
+        "title": "Conheça a galera da BrasilCenter",
+        "text": "Gente valorizada, feliz e talentosa que encontrou aqui a conexão profissional perfeita.",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false
+      },
+      {
+        "image": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-banner-home-desktop-3.png"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-banner-home-mobile-3.png"
+          }
+        },
+        "icones": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/joia.png"
+          }
+        },
+        "title": "Conheça a nossa história e venha fazer parte dela",
+        "text": "Há mais de duas décadas, construindo o melhor capítulo todos os dias.",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false
+      }
+    ],
+    "tituloDeAtuacao": "Números que dizem muito  sobre nós",
+    "findOut": [
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-colaboradores.svg"
+          }
+        },
+        "numero": "+10 mil",
+        "descricao": "colaboradores"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-premios.svg"
+          }
+        },
+        "numero": "+70",
+        "descricao": "prêmios"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-cidades-1.svg"
+          }
+        },
+        "numero": "+100",
+        "descricao": "cidades"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-anos-de-historia.svg"
+          }
+        },
+        "numero": "+25",
+        "descricao": "anos de história"
+      }
+    ],
+    "tituloDe": "A energia é boa, o ambiente  é leve e o sucesso é coletivo",
+    "videos": [
+      {
+        "uploadVideo": {
+          "node": {
+            "mediaItemUrl": "/uploads/2025/08/Video-1-v2.mp4"
+          }
+        }
+      },
+      {
+        "uploadVideo": {
+          "node": {
+            "mediaItemUrl": "/uploads/2025/08/2.mp4"
+          }
+        }
+      },
+      {
+        "uploadVideo": {
+          "node": {
+            "mediaItemUrl": "/uploads/2025/08/3.mp4"
+          }
+        }
+      },
+      {
+        "uploadVideo": {
+          "node": {
+            "mediaItemUrl": "/uploads/2025/08/4.mp4"
+          }
+        }
+      }
+    ],
+    "titulocultura": "Aqui, bem-estar não é só um benefício. É a regra número 1",
+    "listaDeImagens": [
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/01.png",
+            "altText": null
+          }
+        }
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/02.png",
+            "altText": null
+          }
+        }
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/03.png",
+            "altText": null
+          }
+        }
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/04.png",
+            "altText": null
+          }
+        }
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/05.png",
+            "altText": null
+          }
+        }
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/06.png",
+            "altText": null
+          }
+        }
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/07.png",
+            "altText": null
+          }
+        }
+      }
+    ],
+    "beneficios": [
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-participacao.png"
+          }
+        },
+        "descricao": "Participação nos resultados"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-auxilio.png"
+          }
+        },
+        "descricao": "Auxílio creche/babá"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-wellhub.png"
+          }
+        },
+        "descricao": "Wellhub"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/icone-day-off.png"
+          }
+        },
+        "descricao": "Day Off no aniversário"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios.png"
+          }
+        },
+        "descricao": "Descontos em universidades"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-1.png"
+          }
+        },
+        "descricao": "Auxílio pet"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-2.png"
+          }
+        },
+        "descricao": "Descontos em escolas de idiomas"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-3.png"
+          }
+        },
+        "descricao": "Patrocínio em  corridas de rua"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-4.png"
+          }
+        },
+        "descricao": "Descontos em produtos da Claro"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-5.png"
+          }
+        },
+        "descricao": "Massoterapia na empresa"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-6.png"
+          }
+        },
+        "descricao": "Vantagens com as empresas parceiras"
+      },
+      {
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/Vector-3.png"
+          }
+        },
+        "descricao": "Auxílio educação especial"
+      }
+    ],
+    "links": [
+      {
+        "nomeDoCampo": "Política de Privacidade",
+        "link": "https://www.claro.com.br/privacidade"
+      },
+      {
+        "nomeDoCampo": "Portal de Denúncias",
+        "link": "https://denuncias.americamovil.com/"
+      },
+      {
+        "nomeDoCampo": "Código de Ética da AMX",
+        "link": "https://www.brasilcenter.com.br/static/media/Codigo_Etica_Colaborador.5da68a5a.pdf"
+      },
+      {
+        "nomeDoCampo": "Transparência Salarial",
+        "link": "https://www.brasilcenter.com.br/static/media/Equidade_Salarial_BCC.6810e03c.pdf"
+      }
+    ]
+  }
+}

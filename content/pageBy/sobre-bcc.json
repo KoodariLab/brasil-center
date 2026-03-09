@@ -1,0 +1,162 @@
+{
+  "title": "Sobre a BCC",
+  "uri": "sobre-bcc",
+  "sobreBbc": {
+    "fundoEmSvg": {
+      "node": {
+        "mediaItemUrl": "/uploads/2025/08/sobre-a-bcc-novo.svg"
+      }
+    },
+    "fundoEmSvgMobile": {
+      "node": {
+        "mediaItemUrl": "/uploads/2025/08/graficos-fundo-sobre-bcc-mobile.svg"
+      }
+    },
+    "banner": [
+      {
+        "bannerDesktop": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-rapaz.png"
+          }
+        },
+        "bannerMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/imagem-destaque.png"
+          }
+        },
+        "icone": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/emoji-2.png"
+          }
+        },
+        "titulo": "Uma trajetória de peso, movida a motivação e foco em fazer bem feito",
+        "descricao": "",
+        "botao": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/"
+      }
+    ],
+    "tituloSobreBbc": "De pessoas\npara pessoas",
+    "descricaoSobreBbc": "Somos uma empresa de relacionamento com o cliente com Call Center e Vendas que acredita no poder do atendimento humanizado e de soluções rápidas e inteligentes.\n\n&nbsp;\n\nCom um time de mais de 10 mil pessoas em 5 unidades de Call Center e uma estrutura Comercial presente em mais de 100 cidades brasileiras, a gente aposta no que realmente faz a diferença: talentos, inovação e valorização profissional.",
+    "imagemSobreBbc": {
+      "node": {
+        "sourceUrl": "/uploads/2025/07/imagem-ilustrativa-sobre.png"
+      }
+    },
+    "tituloPremio": "+70 prêmios recebidos: Empresa reconhecida leva troféu pra casa",
+    "conquistas": [
+      {
+        "logo": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/logo-LATAM.jpg"
+          }
+        },
+        "premios": "1 premiação",
+        "descricaoDoPremio": "Conquista do Ouro como “Mejor Empresa Tercerizadora”, com o case Universidad de Procesos."
+      },
+      {
+        "logo": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/Cliente-sa.jpg"
+          }
+        },
+        "premios": "5 premiações",
+        "descricaoDoPremio": "Reconhecimento das estratégias mais bem-sucedidas na Gestão de Clientes."
+      },
+      {
+        "logo": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/premio-bt.jpg"
+          }
+        },
+        "premios": "26 premiações",
+        "descricaoDoPremio": "A maior premiação em Relacionamento com os Clientes do Brasil."
+      },
+      {
+        "logo": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/Smart.jpg"
+          }
+        },
+        "premios": "12 premiações",
+        "descricaoDoPremio": "Destaque às práticas mais eficazes do mercado na relação com os Clientes."
+      },
+      {
+        "logo": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/best-performance.jpg"
+          }
+        },
+        "premios": "4 premiações",
+        "descricaoDoPremio": "Busca conhecer as melhores práticas e ideias mais revolucionárias para as indústrias da inovação."
+      }
+    ],
+    "historia": [
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/carrossel.png"
+          }
+        },
+        "imagemMobile": null,
+        "anoInicio": "1998",
+        "anoFim": "a 2003",
+        "descricao": "A BCC nasceu em 1998, em Juiz de Fora, criada pela Embratel, e, no ano seguinte, já estreava o seu primeiro call center e abria uma unidade em Goiânia.\n\n&nbsp;\n\nDe 2000 a 2003, a expansão continuou com operações em Ribeirão Preto, Vila Velha e Macaé. Era o início de uma grande história!"
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/imagem-2-1.png"
+          }
+        },
+        "imagemMobile": null,
+        "anoInicio": "2006",
+        "anoFim": "a 2008",
+        "descricao": "Em 2006, a BCC criou um centro de atendimento técnico no Rio de Janeiro, ajudando clientes com suporte mais especializado.\n\n&nbsp;\n\nEm 2008, esse espaço virou o coração digital da empresa, com atendimento por e-mail, chat e vídeo. Um passo à frente nas novas formas de se comunicar"
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/imagem-3-1.png"
+          }
+        },
+        "imagemMobile": null,
+        "anoInicio": "2011",
+        "anoFim": "a 2014",
+        "descricao": "Em 2011, a BCC abriu o caminho no setor Comercial, expandindo-se em Juiz de Fora para atender a Claro. Três anos depois, a própria Claro assumiu a gestão da empresa, focando nos produtos América Móvil.\n\n&nbsp;\n\nNesse período, a BCC também já começava a ajudar no atendimento aos voluntários dos Jogos Olímpicos do Rio 2016."
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/imagem-4-1.png"
+          }
+        },
+        "imagemMobile": null,
+        "anoInicio": "2016",
+        "anoFim": "a 2017",
+        "descricao": "Em 2016, a BCC passou a focar em atendimentos mais estratégicos, como Procon, Anatel, Jurídico e Ouvidoria.\n\n&nbsp;\n\nNo ano seguinte, chegou a vez de Campinas, com uma nova unidade voltada para televendas receptivas da NET. Sempre de olho na expansão."
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/imagem-5-1.png"
+          }
+        },
+        "imagemMobile": null,
+        "anoInicio": "2018",
+        "anoFim": "a 2020",
+        "descricao": "Em 2018, a BrasilCenter desembarcou em São Paulo e lançou o segmento Comercial, mergulhando no varejo.\n\n&nbsp;\n\nVeio 2020, a pandemia, e a empresa se reinventou: home office + expansão do Comercial para mais de 130 cidades, incluindo vendas porta a porta!"
+      },
+      {
+        "imagem": {
+          "node": {
+            "sourceUrl": "/uploads/2025/07/imagem-6-1.png"
+          }
+        },
+        "imagemMobile": null,
+        "anoInicio": "2023",
+        "anoFim": "a 2025",
+        "descricao": "A BCC completou 25 anos em 2023 com chave de ouro: certificação GPTW, crescimento do Comercial (com o novo canal Condomínios, presente em 5 regiões do Brasil) e a adoção do modelo híbrido.\n\n&nbsp;\n\nTudo isso sem perder o foco nos clientes e nos mais de 10 mil colaboradores!"
+      }
+    ]
+  }
+}

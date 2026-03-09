@@ -1,0 +1,644 @@
+{
+  "home": {
+    "title": "Home",
+    "uri": "home",
+    "home": {
+      "fundoEmSvg": {
+        "node": {
+          "mediaItemUrl": "/uploads/2025/08/Home-v2-2.svg"
+        }
+      },
+      "fundoEmSvgMobile": {
+        "node": {
+          "mediaItemUrl": "/uploads/2025/08/banner-svg-home-v3.svg"
+        }
+      },
+      "banner": [
+        {
+          "image": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/Imagem-rapaz-1.png"
+            }
+          },
+          "imageMobile": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-home-banner-1-mobile.png"
+            }
+          },
+          "icones": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/joia.png"
+            }
+          },
+          "title": "Quando a gente cuida de quem cuida, o atendimento se transforma",
+          "text": "Vem fazer parte de um ambiente de trabalho acolhedor e inclusivo, onde a excelência é só consequência da valorização e do bem-estar.",
+          "button": "Vem ser BCC",
+          "link": "https://vemprabcc.gupy.io/",
+          "bannerAlternativo": false
+        },
+        {
+          "image": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/Imagem-menina.png"
+            }
+          },
+          "imageMobile": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-home-banner-2.png"
+            }
+          },
+          "icones": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/joia.png"
+            }
+          },
+          "title": "Conheça a galera da BrasilCenter",
+          "text": "Gente valorizada, feliz e talentosa que encontrou aqui a conexão profissional perfeita.",
+          "button": "Vem ser BCC",
+          "link": "https://vemprabcc.gupy.io/",
+          "bannerAlternativo": false
+        },
+        {
+          "image": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-banner-home-desktop-3.png"
+            }
+          },
+          "imageMobile": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-banner-home-mobile-3.png"
+            }
+          },
+          "icones": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/joia.png"
+            }
+          },
+          "title": "Conheça a nossa história e venha fazer parte dela",
+          "text": "Há mais de duas décadas, construindo o melhor capítulo todos os dias.",
+          "button": "Vem ser BCC",
+          "link": "https://vemprabcc.gupy.io/",
+          "bannerAlternativo": false
+        }
+      ],
+      "tituloDeAtuacao": "Números que dizem muito  sobre nós",
+      "findOut": [
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-colaboradores.svg"
+            }
+          },
+          "numero": "+10 mil",
+          "descricao": "colaboradores"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-premios.svg"
+            }
+          },
+          "numero": "+70",
+          "descricao": "prêmios"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-cidades-1.svg"
+            }
+          },
+          "numero": "+100",
+          "descricao": "cidades"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-anos-de-historia.svg"
+            }
+          },
+          "numero": "+25",
+          "descricao": "anos de história"
+        }
+      ],
+      "tituloDe": "A energia é boa, o ambiente  é leve e o sucesso é coletivo",
+      "videos": [
+        {
+          "uploadVideo": {
+            "node": {
+              "mediaItemUrl": "/uploads/2025/08/Video-1-v2.mp4"
+            }
+          }
+        },
+        {
+          "uploadVideo": {
+            "node": {
+              "mediaItemUrl": "/uploads/2025/08/2.mp4"
+            }
+          }
+        },
+        {
+          "uploadVideo": {
+            "node": {
+              "mediaItemUrl": "/uploads/2025/08/3.mp4"
+            }
+          }
+        },
+        {
+          "uploadVideo": {
+            "node": {
+              "mediaItemUrl": "/uploads/2025/08/4.mp4"
+            }
+          }
+        }
+      ],
+      "titulocultura": "Aqui, bem-estar não é só um benefício. É a regra número 1",
+      "listaDeImagens": [
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/01.png",
+              "altText": null
+            }
+          }
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/02.png",
+              "altText": null
+            }
+          }
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/03.png",
+              "altText": null
+            }
+          }
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/04.png",
+              "altText": null
+            }
+          }
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/05.png",
+              "altText": null
+            }
+          }
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/06.png",
+              "altText": null
+            }
+          }
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/07.png",
+              "altText": null
+            }
+          }
+        }
+      ],
+      "beneficios": [
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-participacao.png"
+            }
+          },
+          "descricao": "Participação nos resultados"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-auxilio.png"
+            }
+          },
+          "descricao": "Auxílio creche/babá"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-wellhub.png"
+            }
+          },
+          "descricao": "Wellhub"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-day-off.png"
+            }
+          },
+          "descricao": "Day Off no aniversário"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios.png"
+            }
+          },
+          "descricao": "Descontos em universidades"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-1.png"
+            }
+          },
+          "descricao": "Auxílio pet"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-2.png"
+            }
+          },
+          "descricao": "Descontos em escolas de idiomas"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-3.png"
+            }
+          },
+          "descricao": "Patrocínio em  corridas de rua"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-4.png"
+            }
+          },
+          "descricao": "Descontos em produtos da Claro"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-5.png"
+            }
+          },
+          "descricao": "Massoterapia na empresa"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-beneficios-6.png"
+            }
+          },
+          "descricao": "Vantagens com as empresas parceiras"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Vector-3.png"
+            }
+          },
+          "descricao": "Auxílio educação especial"
+        }
+      ],
+      "links": [
+        {
+          "nomeDoCampo": "Política de Privacidade",
+          "link": "https://www.claro.com.br/privacidade"
+        },
+        {
+          "nomeDoCampo": "Portal de Denúncias",
+          "link": "https://denuncias.americamovil.com/"
+        },
+        {
+          "nomeDoCampo": "Código de Ética da AMX",
+          "link": "https://www.brasilcenter.com.br/static/media/Codigo_Etica_Colaborador.5da68a5a.pdf"
+        },
+        {
+          "nomeDoCampo": "Transparência Salarial",
+          "link": "https://www.brasilcenter.com.br/static/media/Equidade_Salarial_BCC.6810e03c.pdf"
+        }
+      ]
+    }
+  },
+  "sobre-bcc": {
+    "title": "Sobre a BCC",
+    "uri": "sobre-bcc",
+    "sobreBbc": {
+      "fundoEmSvg": {
+        "node": {
+          "mediaItemUrl": "/uploads/2025/08/sobre-a-bcc-novo.svg"
+        }
+      },
+      "fundoEmSvgMobile": {
+        "node": {
+          "mediaItemUrl": "/uploads/2025/08/graficos-fundo-sobre-bcc-mobile.svg"
+        }
+      },
+      "banner": [
+        {
+          "bannerDesktop": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-rapaz.png"
+            }
+          },
+          "bannerMobile": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-destaque.png"
+            }
+          },
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/emoji-2.png"
+            }
+          },
+          "titulo": "Uma trajetória de peso, movida a motivação e foco em fazer bem feito",
+          "descricao": "",
+          "botao": "Vem ser BCC",
+          "link": "https://vemprabcc.gupy.io/"
+        }
+      ],
+      "tituloSobreBbc": "De pessoas\npara pessoas",
+      "descricaoSobreBbc": "Somos uma empresa de relacionamento com o cliente com Call Center e Vendas que acredita no poder do atendimento humanizado e de soluções rápidas e inteligentes.\n\n&nbsp;\n\nCom um time de mais de 10 mil pessoas em 5 unidades de Call Center e uma estrutura Comercial presente em mais de 100 cidades brasileiras, a gente aposta no que realmente faz a diferença: talentos, inovação e valorização profissional.",
+      "imagemSobreBbc": {
+        "node": {
+          "sourceUrl": "/uploads/2025/07/imagem-ilustrativa-sobre.png"
+        }
+      },
+      "tituloPremio": "+70 prêmios recebidos: Empresa reconhecida leva troféu pra casa",
+      "conquistas": [
+        {
+          "logo": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/logo-LATAM.jpg"
+            }
+          },
+          "premios": "1 premiação",
+          "descricaoDoPremio": "Conquista do Ouro como “Mejor Empresa Tercerizadora”, com o case Universidad de Procesos."
+        },
+        {
+          "logo": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/Cliente-sa.jpg"
+            }
+          },
+          "premios": "5 premiações",
+          "descricaoDoPremio": "Reconhecimento das estratégias mais bem-sucedidas na Gestão de Clientes."
+        },
+        {
+          "logo": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/premio-bt.jpg"
+            }
+          },
+          "premios": "26 premiações",
+          "descricaoDoPremio": "A maior premiação em Relacionamento com os Clientes do Brasil."
+        },
+        {
+          "logo": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/Smart.jpg"
+            }
+          },
+          "premios": "12 premiações",
+          "descricaoDoPremio": "Destaque às práticas mais eficazes do mercado na relação com os Clientes."
+        },
+        {
+          "logo": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/best-performance.jpg"
+            }
+          },
+          "premios": "4 premiações",
+          "descricaoDoPremio": "Busca conhecer as melhores práticas e ideias mais revolucionárias para as indústrias da inovação."
+        }
+      ],
+      "historia": [
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/carrossel.png"
+            }
+          },
+          "imagemMobile": null,
+          "anoInicio": "1998",
+          "anoFim": "a 2003",
+          "descricao": "A BCC nasceu em 1998, em Juiz de Fora, criada pela Embratel, e, no ano seguinte, já estreava o seu primeiro call center e abria uma unidade em Goiânia.\n\n&nbsp;\n\nDe 2000 a 2003, a expansão continuou com operações em Ribeirão Preto, Vila Velha e Macaé. Era o início de uma grande história!"
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/imagem-2-1.png"
+            }
+          },
+          "imagemMobile": null,
+          "anoInicio": "2006",
+          "anoFim": "a 2008",
+          "descricao": "Em 2006, a BCC criou um centro de atendimento técnico no Rio de Janeiro, ajudando clientes com suporte mais especializado.\n\n&nbsp;\n\nEm 2008, esse espaço virou o coração digital da empresa, com atendimento por e-mail, chat e vídeo. Um passo à frente nas novas formas de se comunicar"
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/imagem-3-1.png"
+            }
+          },
+          "imagemMobile": null,
+          "anoInicio": "2011",
+          "anoFim": "a 2014",
+          "descricao": "Em 2011, a BCC abriu o caminho no setor Comercial, expandindo-se em Juiz de Fora para atender a Claro. Três anos depois, a própria Claro assumiu a gestão da empresa, focando nos produtos América Móvil.\n\n&nbsp;\n\nNesse período, a BCC também já começava a ajudar no atendimento aos voluntários dos Jogos Olímpicos do Rio 2016."
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/imagem-4-1.png"
+            }
+          },
+          "imagemMobile": null,
+          "anoInicio": "2016",
+          "anoFim": "a 2017",
+          "descricao": "Em 2016, a BCC passou a focar em atendimentos mais estratégicos, como Procon, Anatel, Jurídico e Ouvidoria.\n\n&nbsp;\n\nNo ano seguinte, chegou a vez de Campinas, com uma nova unidade voltada para televendas receptivas da NET. Sempre de olho na expansão."
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/imagem-5-1.png"
+            }
+          },
+          "imagemMobile": null,
+          "anoInicio": "2018",
+          "anoFim": "a 2020",
+          "descricao": "Em 2018, a BrasilCenter desembarcou em São Paulo e lançou o segmento Comercial, mergulhando no varejo.\n\n&nbsp;\n\nVeio 2020, a pandemia, e a empresa se reinventou: home office + expansão do Comercial para mais de 130 cidades, incluindo vendas porta a porta!"
+        },
+        {
+          "imagem": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/imagem-6-1.png"
+            }
+          },
+          "imagemMobile": null,
+          "anoInicio": "2023",
+          "anoFim": "a 2025",
+          "descricao": "A BCC completou 25 anos em 2023 com chave de ouro: certificação GPTW, crescimento do Comercial (com o novo canal Condomínios, presente em 5 regiões do Brasil) e a adoção do modelo híbrido.\n\n&nbsp;\n\nTudo isso sem perder o foco nos clientes e nos mais de 10 mil colaboradores!"
+        }
+      ]
+    }
+  },
+  "jeito-bcc": {
+    "title": "Jeito BCC",
+    "uri": "jeito-bcc",
+    "jeitoBcc": {
+      "fundoEmSvg": {
+        "node": {
+          "mediaItemUrl": "/uploads/2025/08/jeito-bcc-novo.svg"
+        }
+      },
+      "fundoEmSvgMobile": {
+        "node": {
+          "mediaItemUrl": "/uploads/2025/08/graficos-fundo-mobile-jeito-bcc.svg"
+        }
+      },
+      "banner": [
+        {
+          "bannerDesktop": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-mulher.png"
+            }
+          },
+          "bannerMobile": {
+            "node": {
+              "sourceUrl": "/uploads/2025/08/imagem-destaque-1.png"
+            }
+          },
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/emoji.png"
+            }
+          },
+          "titulo": "Onde os talentos encontram a oportunidade",
+          "descricao": "",
+          "botao": "Vem ser BCC",
+          "link": "https://vemprabcc.gupy.io/"
+        }
+      ],
+      "prioridades": [
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Group-177497.png"
+            }
+          },
+          "titulo": "Diversidade",
+          "descricao": "A gente cresce de verdade quando valoriza as diferenças e supera os desafios juntos."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Group-177506.png"
+            }
+          },
+          "titulo": "Aprendizado ",
+          "descricao": "É das experiências e vivências que vem a força pra turbinar cada vez mais as soluções."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/seta.png"
+            }
+          },
+          "titulo": "Resultados",
+          "descricao": "Gente engajada + estratégias inteligentes que funcionam e vão além das metas."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Vector.png"
+            }
+          },
+          "titulo": "Soluções ",
+          "descricao": "Aqui, cabeças e saberes diferentes trabalham juntos para resolver problemas e conquistar o público."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Vector-1.png"
+            }
+          },
+          "titulo": "Paixão",
+          "descricao": "Nosso time atua diariamente movido por garra, dedicação e paixão pelo que faz."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Vector-2.png"
+            }
+          },
+          "titulo": "Atitude",
+          "descricao": "Protagonistas inquietos, inovadores e comprometidos com o trabalho."
+        }
+      ],
+      "projetos": [
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icon-1.png"
+            }
+          },
+          "titulo": "Conexão Aprendiz",
+          "descricao": "Uma oportunidade para aprender, crescer e construir um caminho de sucesso como talento da BCC!"
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-desenvolver.png"
+            }
+          },
+          "titulo": "Desenvolver",
+          "descricao": "Diversos programas pensados para você ir mais longe e desenvolver seus potenciais e sua carreira."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-sou-qualidade.png"
+            }
+          },
+          "titulo": "#SouQualidade",
+          "descricao": "Acompanha de perto a satisfação dos nossos clientes para oferecer o melhor atendimento."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/icone-reconhecimento.png"
+            }
+          },
+          "titulo": "Reconhecimento",
+          "descricao": "Aqui, reconhecemos e valorizamos os seus resultados com programas de incentivo."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-programas-2.png"
+            }
+          },
+          "titulo": "Indique um Amigo",
+          "descricao": "O programa que incentiva a nossa gente a indicar quem também é a cara da BCC para trabalhar aqui."
+        },
+        {
+          "icone": {
+            "node": {
+              "sourceUrl": "/uploads/2025/07/Icones-cards-programas-1.png"
+            }
+          },
+          "titulo": "Sucessores",
+          "descricao": "Quer ser líder? A gente te prepara! Um programa para afiar suas habilidades, ganhar confiança e subir degraus."
+        }
+      ]
+    }
+  }
+}

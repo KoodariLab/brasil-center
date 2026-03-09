@@ -1,27 +1,15 @@
-import { useLoadingStore } from '~/stores/loading'
-
-export const useGraphQLFetch = (query, variables = {}, key = '') => {
-  // const loadingStore = useLoadingStore()
-  // loadingStore.startLoading()
-
-  const { data, pending, error } = useFetch('/api/graphql', {
-    key,
-    method: 'POST',
-    body: { query, variables },
-    swr: true,
-    default: () => null,
-    onResponse() {
-      // loadingStore.stopLoading()
-    },
-    onResponseError() {
-      // loadingStore.stopLoading()
-    }
-  })
-
-  setTimeout(() => {
-    // loadingStore.stopLoading()
-  }, 500)
-
-  return { data, pending, error }
+function getPageFromKey (key) {
+  if (!key) return 'home'
+  if (key.startsWith('home')) return 'home'
+  if (key.startsWith('sobre')) return 'sobre-bcc'
+  if (key.startsWith('jeitoBcc')) return 'jeito-bcc'
+  return 'home'
 }
 
+/** Carrega conteúdo estático de content/pageBy (home, sobre-bcc, jeito-bcc). */
+export const useGraphQLFetch = (query, variables = {}, key = '') => {
+  const page = getPageFromKey(key)
+  const fetchKey = `pageBy-${page}`
+  const { data, pending, error } = useAsyncData(fetchKey, () => $fetch(`/api/pageby/${page}`))
+  return { data, pending, error }
+}

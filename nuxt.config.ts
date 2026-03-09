@@ -1,9 +1,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-26',
   ssr: true,
-  runtimeConfig: {
-    public: {
-      apiUrl: process.env.NUXT_API_URL || 'https://www.brasilcenter.com.br/wordpress/graphql'
+  nitro: {
+    prerender: {
+      routes: ['/', '/sobre', '/jeito-bcc']
     }
   },
   app: {
