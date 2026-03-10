@@ -22,7 +22,7 @@
         <div class="instagram-embed">
             <client-only>
                 <div class="instagram-feed-wrapper">
-                    <div class="sk-instagram-feed" data-embed-id="25585354"></div>
+                    <div class="sk-instagram-feed" data-embed-id="25597742"></div>
                 </div>
             </client-only>
         </div>
