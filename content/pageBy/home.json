@@ -16,6 +16,28 @@
       {
         "image": {
           "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-homem-vendedor-v4-desk.png"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-homem-vendedor-v4-mob.png"
+          }
+        },
+        "icones": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-icone-topo-bcc-homem-vendedor-v4-desk.png"
+          }
+        },
+        "title": "Alô, São Paulo! Abrimos novas vagas para a capital",
+        "text": "Tem oportunidade esperando por você na área Comercial. Não vai perder essa chance, né?\n\nCadastre o seu currículo agora!",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false
+      },
+      {
+        "image": {
+          "node": {
             "sourceUrl": "/uploads/2025/08/Imagem-rapaz-1.png"
           }
         },

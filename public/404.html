@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página não encontrada - BrasilCenter</title>
+  <meta name="description" content="Desculpe, a página que você está procurando não foi encontrada." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --brand-secondary-pure: #00A851;
+      --neutral-high-lightest: #FFFFFF;
+      --text-title-xxxl: 176px;
+      --text-title-xs: 24px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { font-family: 'Bricolage Grotesque', sans-serif; height: 100%; }
+    .error-page {
+      min-height: 600px;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background-color: var(--brand-secondary-pure);
+    }
+    .container { width: min(1260px, 100% - 20px); margin-inline: auto; }
+    .container.info-page { display: flex; align-items: center; }
+    .error-page h2 {
+      color: var(--neutral-high-lightest);
+      font-size: var(--text-title-xxxl);
+      font-weight: normal;
+    }
+    .error-page p {
+      font-size: var(--text-title-xs);
+      color: var(--neutral-high-lightest);
+    }
+    .container.info-page img {
+      width: 100%;
+      max-width: 500px;
+      position: relative;
+      display: block;
+    }
+    picture { margin-left: auto; }
+    @keyframes floatFall {
+      0% { transform: translateY(-100vh) rotate(0deg); opacity: 0; }
+      50% { opacity: 1; transform: translateY(50px) rotate(25deg); }
+      70% { transform: translateY(60px) rotate(-15deg); }
+      85% { transform: translateY(80px) rotate(5deg); }
+      100% { transform: translateY(100px) rotate(0deg); }
+    }
+    #astronauta {
+      animation: floatFall 20s ease-out forwards;
+      position: relative;
+    }
+    @media (max-width: 768px) {
+      .error-page h2 { font-size: 80px; }
+      .error-page p { font-size: 18px; }
+      .container.info-page { flex-direction: column; gap: 2rem; text-align: center; }
+      picture { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <div class="container info-page">
+      <div>
+        <h2>404</h2>
+        <p>Ops, a página que você está procurando não existe.</p>
+      </div>
+      <picture>
+        <img id="astronauta" src="/images/404/ilustrative-404.png" alt="Imagem de um astronauta flutuando, ilustração de uma página não encontrada" aria-hidden="true" />
+      </picture>
+    </div>
+  </div>
+</body>
+</html>

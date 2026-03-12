@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Web.config para deploy ESTÁTICO do Nuxt no IIS.
-  Use este arquivo quando publicar o conteúdo de .output/public (após nuxt generate).
+  NÃO requer o módulo URL Rewrite – usa apenas erro customizado para 404.
 
   Como usar:
   1. Rode: npm run generate
@@ -10,38 +10,10 @@
 -->
 <configuration>
   <system.webServer>
-    <rewrite>
-      <rules>
-        <!-- Servir arquivos que existem -->
-        <rule name="Existing files" stopProcessing="true">
-          <match url=".*" />
-          <conditions>
-            <add input="{REQUEST_FILENAME}" matchType="IsFile" />
-          </conditions>
-          <action type="None" />
-        </rule>
-        <!-- Servir diretórios (ex.: /sobre/ com index.html) -->
-        <rule name="Existing directories" stopProcessing="true">
-          <match url=".*" />
-          <conditions>
-            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" />
-          </conditions>
-          <action type="None" />
-        </rule>
-        <!-- Fallback para o app (rotas do Nuxt): servir 200.html -->
-        <rule name="Nuxt static fallback" stopProcessing="true">
-          <match url=".*" />
-          <conditions logicalGrouping="MatchAll">
-            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
-            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
-          </conditions>
-          <action type="Rewrite" url="/200.html" />
-        </rule>
-      </rules>
-    </rewrite>
-    <staticContent>
-      <mimeMap fileExtension=".json" mimeType="application/json" />
-      <mimeMap fileExtension=".webmanifest" mimeType="application/manifest+json" />
-    </staticContent>
+    <!-- Página customizada para 404 (arquivo 404.html na raiz do site) -->
+    <httpErrors errorMode="Custom" existingResponse="Replace">
+      <remove statusCode="404" />
+      <error statusCode="404" path="/404.html" responseMode="File" />
+    </httpErrors>
   </system.webServer>
 </configuration>

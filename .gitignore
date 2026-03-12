@@ -19,6 +19,7 @@ logs
 .fleet
 .idea
 *.zip
+!versao-1.0.1-BC-static.zip
 
 # Local env files
 .env
