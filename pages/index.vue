@@ -129,6 +129,10 @@ const svgUrlMobile = computed(() => pageData.value?.data?.pageBy?.home?.fundoEmS
   top: 0;
 }
 
+.Banner .grid-item-banner-texto h3 {
+  white-space: pre-line;
+}
+
 @media (max-width: 768px) {
   .Banner{
     background-image: none !important;
