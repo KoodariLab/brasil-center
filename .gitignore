@@ -20,6 +20,7 @@ logs
 .idea
 *.zip
 !versao-1.0.1-BC-static.zip
+!versao-1.0.3-BC-static.zip
 
 # Local env files
 .env
