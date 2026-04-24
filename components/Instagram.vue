@@ -15,114 +15,68 @@
                     </div>
                     <nuxt-link to="https://www.instagram.com/brasilcenter_oficial/"  class="button-bcc btn-white btn-icon" target="_blank">Acesse <span class="iconInsta"></span></nuxt-link>
                     <h3>@brasilcenter_oficial</h3>
-                    
+
                 </div>
             </div>
         </div>
         <div class="instagram-embed">
-            <client-only>
+            <ClientOnly>
                 <div class="instagram-feed-wrapper">
-                    <div class="sk-instagram-feed" data-embed-id="25597742"></div>
+                    <behold-widget feed-id="trMXST7iTGKKv8eAta4u" :key="beholdRemountKey" />
                 </div>
-            </client-only>
+            </ClientOnly>
         </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import {
+  loadBeholdWidgetScript,
+  setupBeholdBrandingHide,
+  requestBeholdBrandingHideUpdate,
+} from '@/utils/beholdInstagramEmbed.js'
 
-const route = useRoute();
+const route = useRoute()
+const beholdRemountKey = ref(0)
 
-const loadInstagramWidget = () => {
-  const feedContainer = document.querySelector('.sk-instagram-feed');
-  if (feedContainer) {
-    feedContainer.innerHTML = ''; // Limpa o container antes de recarregar
+let disposeBeholdBrandingHide = null
+
+watch(
+  () => route.fullPath,
+  (newPath, oldPath) => {
+    if (newPath === '/' && oldPath !== '/') {
+      beholdRemountKey.value += 1
+    }
   }
+)
 
-  const existingScript = document.getElementById('sociablekit-script');
-  if (existingScript) {
-    existingScript.remove();
+watch(beholdRemountKey, () => {
+  if (import.meta.client) {
+    nextTick(() => requestBeholdBrandingHideUpdate())
   }
-
-  const script = document.createElement('script');
-  script.id = 'sociablekit-script';
-  script.src = 'https://widgets.sociablekit.com/instagram-feed/widget.js';
-  script.defer = true;
-  document.body.appendChild(script);
-};
+})
 
 onMounted(() => {
-  if (process.client) {
-    loadInstagramWidget();
+  if (import.meta.client) {
+    loadBeholdWidgetScript()
+    disposeBeholdBrandingHide = setupBeholdBrandingHide()
   }
-});
+})
 
-watch(() => route.fullPath, (newPath, oldPath) => {
-  if (newPath === '/' && oldPath !== '/') {
-    // Quando navegar pra Home de volta, força reload da página
-    window.location.reload();
-  }
-});
-    // export default defineEventHandler(async () => {
-    // const endpointAccessToken = process.env.INSTAGRAM_GRAPH_API_URL
-
-    // if (!endpointAccessToken) {
-    //     return { error: 'Token ou URL não configurada' }
-    // }
-
-    // try {
-    //     const res = await fetch(endpointAccessToken)
-    //     const data = await res.json()
-    //     return data
-    // } catch (error) {
-    //     return { error: 'Erro ao buscar o feed' }
-    // }
-    // })
+onUnmounted(() => {
+  disposeBeholdBrandingHide?.()
+  disposeBeholdBrandingHide = null
+})
 </script>
 
 <style scoped>
 section {
   background-color: var(--brand-primary-dark);
 }
-/* Container principal */
 .instagram-feed-wrapper {
   max-width: 100%;
-  display: grid;
-}
-
-/* Esconde foto de perfil, biografia e seguidores */
-.instagram-feed-wrapper .sk-profile-info {
-  display: none !important;
-}
-
-/* Esconde curtidas, comentários, datas, etc */
-.instagram-feed-wrapper .sk-post-stats,
-.instagram-feed-wrapper .sk-post-caption,
-.instagram-feed-wrapper .sk-post-date {
-  display: none !important;
-}
-
-/* Mantém somente as imagens/vídeos do feed */
-.instagram-feed-wrapper .sk-item {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-
-/* Grid para 4 itens */
-.instagram-feed-wrapper .sk-items {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-/* Força a esconder os itens além do 4º (5,6, etc) */
-.instagram-feed-wrapper .sk-item:nth-child(n+5) {
-  display: none !important;
-}
-.instagram-user-root-container {
-    display: none !important;
 }
 .instagram-embed {
     padding-top: 140px;

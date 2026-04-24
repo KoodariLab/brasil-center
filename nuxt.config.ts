@@ -1,6 +1,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-26',
   ssr: true,
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) =>
+        typeof tag === 'string' && tag.toLowerCase().startsWith('behold-'),
+    },
+  },
   nitro: {
     prerender: {
       routes: ['/', '/sobre', '/jeito-bcc']
