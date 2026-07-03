@@ -5,7 +5,7 @@
                 <span class="highlight">Junte-se a nós</span>
                 <div class="flex gap-10">
                     <h2 class="title-xxl t-white">Quer fazer <span class="word_breaker"></span>parte da BCC?</h2>
-                    <img src="/assets/logo-great-place.png" alt="Lodo da Great Place to Work" class="logo-great-place" loading="lazy" aria-label="true">
+                    <img src="/assets/selo-gptw-desk.png" alt="Logo da Great Place to Work" class="logo-great-place" loading="lazy" aria-label="true">
                 </div>
                 <p class="t-white">Confira as vagas abertas e faça o seu cadastro agora mesmo!</p>
                 <NuxtLink to="https://vemprabcc.gupy.io/" class="button-bcc" target="_blank">Vem ser BCC</NuxtLink>

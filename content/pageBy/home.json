@@ -16,6 +16,25 @@
       {
         "image": {
           "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-premio-gptw-v2-desk.jpg"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-premio-gptw-v2-mob.jpg"
+          }
+        },
+        "emoji": "🥰",
+        "title": "É oficial: seguimos sendo um Great Place to Work",
+        "text": "Mais um selo que comprova: investir em pessoas sempre foi a nossa melhor escolha.\n\nDecole a sua carreira com a gente!",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false,
+        "bannerFullscreen": true
+      },
+      {
+        "image": {
+          "node": {
             "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-homem-vendedor-v4-desk (1).png"
           }
         },

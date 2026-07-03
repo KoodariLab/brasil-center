@@ -2,7 +2,21 @@
   <main>
     <Banner :background="svgUrl" :backgroundMobile="svgUrlMobile" :slides="bannerSlides">
       <template #default="{ slide }">
-        <div class="item-banner container" :class="{ 'banner-alternativo': slide.alternativo }">
+        <div v-if="slide.fullscreen" class="item-banner-fullscreen">
+          <picture>
+            <source v-if="slide.mobile" :srcset="slide.mobile" media="(max-width: 768px)" />
+            <img v-if="slide.desktop" :src="slide.desktop" :alt="slide.title" aria-hidden="true">
+          </picture>
+          <div class="container">
+            <div class="fullscreen-texto">
+              <span v-if="slide.emoji" class="banner-emoji" aria-hidden="true">{{ slide.emoji }}</span>
+              <h2 v-if="slide.title">{{ slide.title }}</h2>
+              <h3 v-if="slide.text">{{ slide.text }}</h3>
+              <a v-if="slide.link" :href="slide.link" class="button-banner" target="_blank">{{ slide.button }}</a>
+            </div>
+          </div>
+        </div>
+        <div v-else class="item-banner container" :class="{ 'banner-alternativo': slide.alternativo }">
           <div class="grid-item-banner" >
             <picture>
               <source v-if="slide.mobile" :srcset="slide.mobile" media="(max-width: 768px)" />
@@ -108,11 +122,13 @@ const bannerSlides = computed(() => {
     desktop: b.image?.node?.sourceUrl || '',
     mobile: b.imageMobile?.node?.sourceUrl || '',
     icon: b.icones?.node?.sourceUrl || '',
+    emoji: b.emoji || '',
     title: b.title || '',
     text: b.text || '',
     button: b.button || '',
     link: b.link || '',
-    alternativo: b.bannerAlternativo 
+    alternativo: b.bannerAlternativo,
+    fullscreen: b.bannerFullscreen || false
   }));
 });
 
@@ -133,6 +149,55 @@ const svgUrlMobile = computed(() => pageData.value?.data?.pageBy?.home?.fundoEmS
   white-space: pre-line;
 }
 
+.item-banner-fullscreen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.item-banner-fullscreen picture {
+  position: absolute;
+  inset: 0;
+}
+.item-banner-fullscreen picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.item-banner-fullscreen .container {
+  position: relative;
+}
+.fullscreen-texto {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.fullscreen-texto .banner-emoji {
+  font-size: 48px;
+  line-height: 1;
+}
+.fullscreen-texto h2 {
+  font-size: var(--text-title-lg);
+  color: var(--neutral-high-light);
+  line-height: 110%;
+  font-weight: 600;
+}
+.fullscreen-texto h3 {
+  font-size: var(--text-body-sm);
+  color: var(--neutral-high-light);
+  line-height: 160%;
+  white-space: pre-line;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1366px) {
+  .fullscreen-texto h2 {
+    font-size: var(--text-title-md);
+  }
+}
+
 @media (max-width: 768px) {
   .Banner{
     background-image: none !important;
@@ -145,6 +210,30 @@ const svgUrlMobile = computed(() => pageData.value?.data?.pageBy?.home?.fundoEmS
   }
   .Banner .grid-item-banner-texto h3 {
     padding-right: 32px;
+  }
+  .item-banner-fullscreen {
+    align-items: flex-start;
+  }
+  .item-banner-fullscreen .container {
+    margin-top: 90px;
+  }
+  .fullscreen-texto {
+    width: 100%;
+    gap: 16px;
+  }
+  .fullscreen-texto .banner-emoji {
+    display: none;
+  }
+  .fullscreen-texto h2 {
+    font-size: var(--text-title-xs);
+    padding-right: 32px;
+  }
+  .fullscreen-texto h3 {
+    font-size: var(--text-body-xxs);
+    padding-right: 32px;
+  }
+  .fullscreen-texto .button-banner {
+    width: 100% !important;
   }
 }
 </style>
