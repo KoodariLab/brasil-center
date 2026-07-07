@@ -35,6 +35,42 @@
       {
         "image": {
           "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-premio-clientes-SA-desk.png"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-premio-clientes-SA-mob.png"
+          }
+        },
+        "emoji": "🏆",
+        "title": "Nosso BackOffice é campeão!",
+        "text": "A BCC levou o 1º lugar no Prêmio Cliente SA 2026.\n\nÉ o mercado reconhecendo o que a gente já sabe: aqui, a sua carreira vale ouro!",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false
+      },
+      {
+        "image": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-premio-smart-desk.png"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-premio-smart-mob.png"
+          }
+        },
+        "emoji": "🏆",
+        "title": "Smart Customer: bronze na categoria Gestão de Pessoas",
+        "text": "Mais um troféu na estante da BCC!\n\nAqui tem oportunidade, valorização e um time incrível que faz acontecer.",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false
+      },
+      {
+        "image": {
+          "node": {
             "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-homem-vendedor-v4-desk (1).png"
           }
         },
@@ -75,7 +111,9 @@
         "button": "Vem ser BCC",
         "link": "https://vemprabcc.gupy.io/",
         "bannerAlternativo": false
-      },
+      }
+    ],
+    "bannerComentados": [
       {
         "image": {
           "node": {

@@ -23,7 +23,8 @@
               <img v-if="slide.desktop" :src="slide.desktop" :alt="slide.title" aria-hidden="true">
             </picture>
             <div class="grid-item-banner-texto">
-              <img v-if="slide.icon" :src="slide.icon" alt="imagem ilustrativa" aria-hidden="true" class="icon-banner-cad">
+              <span v-if="slide.emoji" class="banner-emoji" aria-hidden="true">{{ slide.emoji }}</span>
+              <img v-else-if="slide.icon" :src="slide.icon" alt="imagem ilustrativa" aria-hidden="true" class="icon-banner-cad">
               <h2 v-if="slide.title">{{ slide.title }}</h2>
               <h3 v-if="slide.text">{{ slide.text }}</h3>
               <a v-if="slide.link" :href="slide.link" class="button-banner" target="_blank">{{ slide.button }}</a>
@@ -179,6 +180,10 @@ const svgUrlMobile = computed(() => pageData.value?.data?.pageBy?.home?.fundoEmS
   font-size: 48px;
   line-height: 1;
 }
+.grid-item-banner-texto .banner-emoji {
+  font-size: 48px;
+  line-height: 1;
+}
 .fullscreen-texto h2 {
   font-size: var(--text-title-lg);
   color: var(--neutral-high-light);
@@ -222,6 +227,9 @@ const svgUrlMobile = computed(() => pageData.value?.data?.pageBy?.home?.fundoEmS
     gap: 16px;
   }
   .fullscreen-texto .banner-emoji {
+    display: none;
+  }
+  .grid-item-banner-texto .banner-emoji {
     display: none;
   }
   .fullscreen-texto h2 {
