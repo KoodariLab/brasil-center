@@ -22,6 +22,12 @@
                             <img src="/assets/instagram.svg" alt="instagram" aria-label="true">
                         </picture>
                     </NuxtLink>
+                    <NuxtLink to="https://www.linkedin.com/company/brasilcenter-comunica%C3%A7%C3%B5es/" target="_blank">
+                        <picture>
+                            <source srcset="/assets/linkedin-header-mobile.svg" media="(max-width: 1140px)">
+                            <img src="/assets/linkedin-header.svg" alt="linkedin" aria-label="true">
+                        </picture>
+                    </NuxtLink>
                 </ul>
             </div>
             <NuxtLink v-if="mobileView" to="https://vemprabcc.gupy.io/" target="_blank" class="button-bcc">Vem ser BCC</NuxtLink>
@@ -288,7 +294,8 @@ ul.social-links a {
         padding: 26px 20px;
         margin-top: auto;
         height: 100px !important;
-        gap: 60px;
+        gap: 20px;
+        align-items: end;
     }
     picture::before {
         content: attr(data-tooltip);
