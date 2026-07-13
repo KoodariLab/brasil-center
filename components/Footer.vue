@@ -31,7 +31,8 @@
                 <div class="footer-social-links">
                     <div class="limit-card-infos">
                         <div>
-                            <NuxtLink to="https://www.instagram.com/brasilcenter_oficial/" target="_blank"><img src="/assets/instagram-white.png" alt="ícone da rede social instagram"></NuxtLink>
+                            <NuxtLink to="https://www.instagram.com/brasilcenter_oficial/" target="_blank" rel="noopener noreferrer"><img src="/assets/instagram-white.png" alt="ícone da rede social instagram"></NuxtLink>
+                            <NuxtLink to="https://www.linkedin.com/company/brasilcenter-comunica%C3%A7%C3%B5es/?originalSubdomain=br" target="_blank" rel="noopener noreferrer"><img src="/assets/linkedin.png" alt="ícone da rede social LinkedIn"></NuxtLink>
                             <NuxtLink to="mailto:falecomabcc@brasilcenter.com.br"><img src="/assets/mail-white.png" alt="ícone do e-mail" aria-hidden="true"></NuxtLink>
                         </div>
                         <NuxtLink to="/"><img src="/images/logo-white.svg" alt="Logotipo da Brasil Center Comunicações" /></NuxtLink>
