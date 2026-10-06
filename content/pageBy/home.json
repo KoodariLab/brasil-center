@@ -16,29 +16,6 @@
       {
         "image": {
           "node": {
-            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-banner-certificacao-gptw-v1-desk.jpg"
-          }
-        },
-        "imageMobile": {
-          "node": {
-            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-banner-certificacao-gptw-v1-mob.jpg"
-          }
-        },
-        "icones": {
-          "node": {
-            "sourceUrl": "/uploads/2025/08/img-icone-topo-bcc-banner-certificacao-gptw-v1-desk.png"
-          }
-        },
-        "title": "Somos uma das Melhores Empresas Para Trabalhar™",
-        "text": "A BrasilCenter é uma das 175 melhores companhias para se fazer parte no Brasil! Estar no Ranking Nacional do GPTW é uma conquista que reforça o compromisso de oferecer o melhor ambiente de trabalho.",
-        "button": "Vem ser BCC",
-        "link": "https://vemprabcc.gupy.io/",
-        "bannerAlternativo": false,
-        "bannerFullscreen": true
-      },
-      {
-        "image": {
-          "node": {
             "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-banner-certificacao-gptw-v2-desk.jpg"
           }
         },
@@ -54,6 +31,29 @@
         },
         "title": "A BBC está no Ranking Nacional GPTW 2026!",
         "text": "Um novo motivo para comemorar! Estamos entre as 175 Melhores Empresas para Trabalhar™ do GPTW deste ano!\n\nUm reconhecimento gigante para uma empresa que valoriza a relação com o colaborador.",
+        "button": "Vem ser BCC",
+        "link": "https://vemprabcc.gupy.io/",
+        "bannerAlternativo": false,
+        "bannerFullscreen": true
+      },
+      {
+        "image": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-banner-certificacao-gptw-v1-desk.jpg"
+          }
+        },
+        "imageMobile": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-banner-topo-bcc-banner-certificacao-gptw-v1-mob.jpg"
+          }
+        },
+        "icones": {
+          "node": {
+            "sourceUrl": "/uploads/2025/08/img-icone-topo-bcc-banner-certificacao-gptw-v1-desk.png"
+          }
+        },
+        "title": "Somos uma das Melhores Empresas Para Trabalhar™",
+        "text": "A BrasilCenter é uma das 175 melhores companhias para se fazer parte no Brasil! Estar no Ranking Nacional do GPTW é uma conquista que reforça o compromisso de oferecer o melhor ambiente de trabalho.",
         "button": "Vem ser BCC",
         "link": "https://vemprabcc.gupy.io/",
         "bannerAlternativo": false,
