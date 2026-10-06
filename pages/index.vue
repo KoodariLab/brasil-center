@@ -10,6 +10,7 @@
           <div class="container">
             <div class="fullscreen-texto">
               <span v-if="slide.emoji" class="banner-emoji" aria-hidden="true">{{ slide.emoji }}</span>
+              <img v-else-if="slide.icon" :src="slide.icon" alt="" aria-hidden="true" class="icon-banner-cad">
               <h2 v-if="slide.title">{{ slide.title }}</h2>
               <h3 v-if="slide.text">{{ slide.text }}</h3>
               <a v-if="slide.link" :href="slide.link" class="button-banner" target="_blank">{{ slide.button }}</a>
